@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Completed-success.svg)]()
 
-> **Tugas Praktikum Pengolahan Citra Digital (Digital Image Processing)**  
 > **Penulis:** Muhamad Faridzqi Suryadi  
 > **Program Studi:** Teknik Informatika, Fakultas Teknik dan Ilmu Komputer  
 > **Institusi:** Universitas Nahdlatul Ulama Indonesia  
@@ -80,57 +79,8 @@ Untuk menguji apakah CLAHE benar-benar membatasi derau pada area seragam, diukur
 
 ---
 
-## 📁 Struktur Repositori
 
-```text
-citra-digital/
-├── image/                                     # Dataset citra uji
-│   ├── Chest_Xray_PA_3-8-2010.png             # Citra Medis (Rontgen Dada)
-│   ├── Red_sea_underwater_coral.jpg           # Citra Bawah Laut (Coral Reef)
-│   └── Night_Street_with_Stoplights.jpg       # Citra Surveillance (Malam Hari)
-├── clahe_image.ipynb                          # Jupyter Notebook eksperimen & visualisasi
-├── Paper_CLAHE_Image_Enhancement.pdf          # Laporan ilmiah lengkap (PDF 10 halaman)
-├── LAPORAN_PRAKTIKUM_CLAHE.md                 # Draf laporan teks Markdown
-├── requirements.txt                           # Daftar dependensi Python
-└── README.md                                  # Dokumentasi repositori
-```
-
----
-
-## 🚀 Panduan Menjalankan Kode (Quickstart)
-
-### 1. Clone Repositori
-```bash
-git clone https://github.com/[username-anda]/citra-digital.git
-cd citra-digital
-```
-
-### 2. Buat Virtual Environment (Opsional tapi Direkomendasikan)
-```bash
-# Windows
-python -m venv venv
-venv\Scripts\activate
-
-# Linux / macOS
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 3. Instalasi Dependensi
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Menjalankan Jupyter Notebook
-Jalankan Jupyter Notebook atau buka langsung di VS Code / Cursor:
-```bash
-jupyter notebook clahe_image.ipynb
-```
-Pilih opsi **Run All** untuk mengeksekusi seluruh sel dari awal hingga akhir.
-
----
-
-## 🛠️ Kebutuhan Sistem & Pustaka
+## 🛠️ Sistem Pustaka
 
 * **Python:** `>= 3.10`
 * **OpenCV (`opencv-python`):** `>= 4.8.0`
